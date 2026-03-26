@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "precio": 30000
+  },
+  {
+    "id": 2,
+    "titulo": "Don Quijote de la Mancha",
+    "autor": "Miguel de Cervantes",
+    "precio": 25000
+  },
+  {
+    "id": 3,
+    "titulo": "El principito",
+    "autor": "Antoine de Saint-Exupéry",
+    "precio": 20000
+  },
+  {
+    "id": 4,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "precio": 22000
+  },
+  {
+    "id": 5,
+    "titulo": "Orgullo y prejuicio",
+    "autor": "Jane Austen",
+    "precio": 21000
+  },
+  {
+    "id": 7,
+    "titulo": "La Odisea",
+    "autor": "Homero",
+    "precio": 26000
+  },
+  {
+    "id": 8,
+    "titulo": "El alquimista",
+    "autor": "Paulo Coelho",
+    "precio": 24000
+  },
+  {
+    "id": 9,
+    "titulo": "Harry Potter y la piedra filosofal",
+    "autor": "J.K. Rowling",
+    "precio": 35000
+  },
+  {
+    "id": 10,
+    "titulo": "Los juegos del hambre",
+    "autor": "Suzanne Collins",
+    "precio": 32000
+  },
+  {
+    "id": 11,
+    "titulo": "Hablan los gurus",
+    "autor": "Joseph Boyett",
+    "precio": 24000
+  },
+  {
+    "id": 11,
+    "titulo": "Hablan los gurus",
+    "autor": "Joseph Boyett",
+    "precio": 18000
+  },
+  {
+    "id": 11,
+    "titulo": "Hablan los gurus",
+    "autor": "Joseph Boyett",
+    "precio": 18000
+  },
+  {
+    "id": 11,
+    "titulo": "Hablan los gurus",
+    "autor": "Joseph Boyett",
+    "precio": 18000
+  }
+]

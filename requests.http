@@ -1,0 +1,39 @@
+### Obtener todos los libros
+GET http://localhost:3000/books
+
+###
+
+### Obtener libro por ID
+GET http://localhost:3000/books/5
+
+###
+
+### Crear libro
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "id": 11,
+  "titulo": "Hablan los gurus",
+  "autor": "Joseph Boyett",
+  "precio": 18000
+}
+
+###
+
+###actualizar un libro
+PUT http://localhost:3000/books/11
+Content-Type: application/json
+
+{
+    "id":11,
+    "precio":24000
+}
+
+###
+
+###Eliminar un libro
+DELETE http://localhost:3000/books/12 HTTP/1.1
+
+###
+
