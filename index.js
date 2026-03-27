@@ -4,6 +4,7 @@ import fs from "fs";
 const app = express();
 app.use(express.json());
 
+// Leer datos
 const readData = () => {
   try {
     const data = fs.readFileSync("./db.json", "utf-8");
@@ -14,6 +15,7 @@ const readData = () => {
   }
 };
 
+// Escribir datos
 const writeData = (data) => {
   try {
     fs.writeFileSync("./db.json", JSON.stringify(data, null, 2));
@@ -69,7 +71,7 @@ app.post("/books", (req, res) => {
   res.status(201).json(newBook);
 });
 
-// ✏️ Actualizar libro por ID (PUT)
+// Actualizar libro
 app.put("/books/:id", (req, res) => {
   const data = readData();
   const id = parseInt(req.params.id);
@@ -115,7 +117,9 @@ app.delete("/books/:id", (req, res) => {
   });
 });
 
-// Iniciar servidor
-app.listen(3000, () => {
-  console.log("Servidor corriendo en http://localhost:3000");
+// 🔥 IMPORTANTE: Puerto dinámico para Render
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en el puerto ${PORT}`);
 });
